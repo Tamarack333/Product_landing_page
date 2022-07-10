@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Intercultural Artwork United</title>
+    <style>
+      @media screen{
+        header{
+          position: fixed;
+          background-color:honeydew;
+          margin-left: 0;
+          top: 0;
+          display: grid;
+          grid-template-columns: max-content;
+          width: 100%;
+        }
+        header img{
+          width: 100px;
+          height: 100px;
+          display: inline;
+          grid-column: 1;
+        }
+        header h1{
+          grid-column: 2;
+          display: flex;
+          justify-content: center;
+        }
+        header #nav-bar{
+          grid-column: 3;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+        }
+        a{
+          color: black;
+          text-decoration: none;
+          font-size: 20px;
+        }
+        body{
+          background-color: lightgray;
+          margin: 0px;
+        }
+        main{
+          text-align: center;
+        }
+        form{
+          margin-top: 120px;
+          display: flex;
+          justify-content: center;
+        }
+        h2{
+          margin: 0 10px;
+        }
+        h3{
+          font-size: 30px;
+        }
+        .gallery img{
+          max-width: 400px;
+          max-height: 400px;
+          border: solid;
+          border-color: black;
+        }
+        .gallery{
+          overflow: auto;
+          white-space: nowrap;
+        }
+      }
+      #foobar{
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <img src="https://www.performancelearn.com/wp-content/uploads/IDI-individual.jpg" id="header-img">
+      <h1>Intercultural Artwork United</h1>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#Paintings">Paintings</a>
+        <a class="nav-link" href="#Sculptures">Sculptures</a>
+        <a class="nav-link" href="#Weavings">Weavings</a>
+        <a class="nav-link" href="#Cultures">Cultures</a>
+      </nav>
+    </header>
+    <main>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <h2>Contact Us Today!</h2>
+        <input id="email" type="email" placeholder="Email" name="email">
+        <input id="submit" class="btn" type="submit">
+      </form>
+      <h3 id="Paintings">
+        Paintings
+      </h3>
+      <p>
+        Our artists from around the world paint beautiful canvases that will add character to any room.
+      </p>
+      <section class="gallery">
+        <img id="house_by_the_railroad" src ="https://glasstire.com/wp-content/uploads/2021/01/Edward-Hopper-House-by-the-railroad-1925-public-domain.jpg?x88956">
+        <img id="chinese_waterfall" src="https://www.publicdomainpictures.net/pictures/160000/nahled/chinese-painting.jpg">
+        <img id="chinese_birds" src="https://assets.rawpixel.com/image_1300/Y29sbGVjdGlvbi9jb3Zlci9iZWVmMWJiODQ5ZTJmZDgwM2NmMGE0ZWE2ZWEwY2IxZV9jb3Zlci5qcGc.jpg?s=vzJzTqN3WJRhJ-WDgvBTD5pymPxjp4lW-dn9ZWgEN0k">
+        <img id="russain_knight" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/TheKnightAtTheCrossroads.jpg/1200px-TheKnightAtTheCrossroads.jpg">
+        <img id="russian_women" src="https://thumbs.dreamstime.com/b/russian-women-historic-illustration-public-domain-book-types-peoples-russia-moscow-101179427.jpg">
+        <img id="navajo_sand_bear" src="http://www.clker.com/cliparts/8/b/c/a/15138274561458212406navajo-sand-paintings.med.png">
+      </section>
+      <h3 id="Sculptures">
+        Sculptures
+      </h3>
+      <p>
+        Show your well cultured taste with a touch of high society by adding these scultures to any living space.
+      </p>
+      <section class="gallery">
+        <img id="angel_statue" src="https://www.publicdomainpictures.net/pictures/60000/nahled/angel-statue-without-hands.jpg">
+        <img id="little_man_statue" src="https://cache.getarchive.net/Prod/thumb/cdn21/L3Bob3RvLzAwMDAvMDEvMDEvc3RhdHVlLW9mLXRqZXRldGktaW4tbWlkZGxlLWFnZS03NjM1MTQtMTAyNC5qcGc%3D/320/438/jpg">
+        <img id="men_snakes_statue" src="https://the-public-domain-review.imgix.net/essays/who-says-michelangelo-was-right-conflicting-visions-of-the-past-in-early-modern-prints/24869781316_f32b2f0923_o.jpg?fit=max&w=1200&h=850">
+        <img id="cool_3d" src="https://media.sketchfab.com/models/a0f8ccfed40846c1acdca303a7c94909/thumbnails/288f992d00694789a3ddb8f6ad4c7147/135e84dc9b8c4336b65734d6b886d66d.jpeg">
+        <img id="busted_man" src="https://images.unsplash.com/photo-1570877901348-07076379b061?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3w4NzM1NTY1NXx8ZW58MHx8fHw%3D&w=1000&q=80">
+      </section>
+      <h3 id="Weavings">
+        Weavings
+      </h3>
+      <p>
+        The masterful technique of our weavers create tapestries, blankets, and rugs that manifest the history of thier people. Each of these intricate products is handmade with special care. If your looking for art that combines beauty, culture, history, and functionality look no further!
+      </p>
+      <section class="gallery">
+        <img id="navajo_geometric" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Navajo_blanket_or_rug%2C_Honolulu_Museum_of_Art%2C_4420.1.JPG">
+        <img id="tall_men" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Ye%27ii_tapestry%2C_Navajo%2C_c._1920-1930%2C_McNay_Art_Museum.jpg/800px-Ye%27ii_tapestry%2C_Navajo%2C_c._1920-1930%2C_McNay_Art_Museum.jpg">
+        <img id="black_white_rug" src="https://www.photos-public-domain.com/wp-content/uploads/2011/03/black-and-white-navajo-rug.jpg">
+        <img id="old_rug" src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/461327/preview">
+        <img id="flowers" src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Northwest_Persian_Harshang_Carpet.JPG">
+        <img id="flowers_dragons" src="https://images.metmuseum.org/CRDImages/as/original/DT1850.jpg">
+        <img id="dragon_water" src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/53620/191517/main-image">
+      </section>
+      <h3 id="Cultures">
+        Cultures
+      </h3>
+      <p>
+        Our artists represent cultures from around the globe including American, Chinese, Russain, Navajo, and Persain.
+      </p>
+      <iframe id="video" width="885" height="498" src="https://www.youtube.com/embed/Xygk7UjKM2g" title="Faces from around the world" frameborder="4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </main>
+    <div id="foobar"></div>
+  </body>
+</html>
